@@ -1,0 +1,19 @@
+{
+    "name": "fabgood/hello",
+    "description": "test class hello",
+    "authors": [
+        {
+            "name": "Fabien Chaillou",
+            "email": "fchaillou@sirius-global-services.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
